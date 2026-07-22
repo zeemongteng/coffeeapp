@@ -23,7 +23,7 @@ curl -X POST http://localhost:8080/coffees \
      -H "Content-Type: application/json" \
      -d '{"name":"Cappuccino","price":60.0}'
 
-**4. Update
+**4. Update**
 curl -X PUT http://localhost:8080/coffees/2 \
      -H "Content-Type: application/json" \
      -d '{"name":"Latte","price":50.0}'
